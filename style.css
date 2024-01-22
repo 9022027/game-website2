@@ -133,3 +133,41 @@ h1{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.h2{
+   margin-top: 30px;
+   margin-left: 10px;
+}
+.p1{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.button2{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: grey;
+  color: #ffffff;
+  border: 1px solid black;
+  border-radius: 33px;
+  margin-top: 30px;
+  margin-left: 25px;
+  width: 250px;
+  height: 20px;
+
+
+}
+.img1{
+  height: 375px;
+  width: auto;
+  margin-left: 1100px;
+  margin-top: -250px;
+}
+.img2{
+  height: 250px;
+  width: 350px;
+  margin-left: 600px;
+  margin-top: -90px;
+}
