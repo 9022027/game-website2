@@ -107,6 +107,7 @@ h1{
   color: white;
   
 }
+.h2{}
 .button2{
   display: inline-block;
   padding: 10px 20px;
@@ -135,6 +136,18 @@ h1{
   width: 350px;
   margin-left: 600px;
   margin-top: -90px;
+}
+.img3{
+  height: 350px;
+  width: 450px;
+  margin-left: 1000px;
+  margin-top: -150px;
+}
+.img4{
+  height: 300px;
+  width: 350px;
+  margin-left: 400px;
+  margin-top: -150px;
 }
 /* Author: Farai de Grave */
 #gameContainer{
