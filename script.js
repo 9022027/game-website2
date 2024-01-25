@@ -126,7 +126,7 @@ function drawSnake(){
 
 // Function for changing direction when pressing keys
 function changeDirection(event) {
-    const directionChangeCooldown = 150;
+    const directionChangeCooldown = 2000;
     let lastDirectionChangeTime = 0;
     const currentTime = Date.now();
 
