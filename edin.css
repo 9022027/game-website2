@@ -1,0 +1,79 @@
+.center {
+    text-align: center;
+  }
+  .jsgame {
+    position: relative;
+    background-color: #191919;
+  }
+  #score{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: white;
+  }
+  .section{
+    background-color: #191919;
+    color: rgb(245, 253, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .score{
+    font-size: 4em;
+    margin-bottom: .5em;
+  }
+  .board{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .hole{
+    background-color: rgba(93, 8, 204, 0.904);
+    border-radius: 100%;
+    box-shadow: inset 0 10px 0 7px rgb(53, 6, 6),
+    inset 0 20px 20px 15px rgba(0, 0, 0, 0.3),
+  0 0 5px rgba(0, 0, 0, .5);
+    position: relative;
+    overflow: hidden;
+  }
+  .hole .mole{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    animation: rise .3s ease-out;
+  }
+  @keyframes rise {
+    0%{
+        transform: translateX(-50%) translateY(100%);
+    }
+    100%{
+        transform: translateX(-50%) translateY(0);
+    }
+  }
+  .cursor{
+    height: 110px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-image: url('./img/hammer.png');
+    background-size: 100% 100%;
+    transform: translate(-20%, -20%);
+    transition: transform .1s;
+    pointer-events: none;
+  }
+  .cursor.active{
+    transform: translate(-20%, -20%) rotate(-45deg);
+  }
+
+  
+
+
+  
